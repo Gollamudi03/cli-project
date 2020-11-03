@@ -1,6 +1,4 @@
 require 'nokogiri'
-require_relative 'cli'
-require_relative 'scraper'
-require_relative 'book'
-require "require_all"
-require_all "lib/app"
+require_relative 'lib/cli'
+require_relative 'lib/scraper'
+require_relative 'lib/book'
