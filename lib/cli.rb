@@ -66,7 +66,7 @@ class CLI
       puts 'FIND BOOKS TO READ'
       puts '^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ '
       puts "  "
-      puts 'Please enter a selection based on the below:'
+      puts 'Please enter and get the details about the books'
       puts ' '
       puts "=> Enter 'list' to get the list of books."
       puts "=> Enter 'description' to get the description of a book. "
@@ -79,7 +79,8 @@ class CLI
 
       case user_input
       when 'list'
-        puts "Hang tight... this might take a minute..."
+        puts "Please Wait... This might take a minute..."
+        puts"loading......"
         make_book_list
       when 'description'
         get_book_description
