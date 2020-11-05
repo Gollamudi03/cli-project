@@ -65,8 +65,8 @@ class CLI
       puts ' '
       puts 'FIND BOOKS TO READ'
       puts '^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ '
-      puts "  "
-      puts 'Please enter and get the details about the books'
+      #puts "  "
+      puts 'Please enter selection and get the details about the books'
       puts ' '
       puts "=> Enter 'list' to get the list of books."
       puts "=> Enter 'description' to get the description of a book. "
